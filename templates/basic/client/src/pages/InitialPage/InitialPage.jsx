@@ -9,8 +9,8 @@ export default function InitialPage() {
       <div className="content">
         <img src="/CRM.svg" alt="CRM.svg" />
         <div>
-          <h1>Проект успешно создан!</h1>
-          <p>Теперь можешь приступить к разработке.</p>
+          <h1>Project successfully set up!</h1>
+          <p>Now make your dreams come true.</p>
         </div>
       </div>
     </div>
