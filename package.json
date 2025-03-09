@@ -1,6 +1,6 @@
 {
   "name": "@sharagulov/create-react-monorepo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "commonjs",
   "description": "Reactor-CLI to easify frontend developing",
   "publishConfig": {
@@ -17,6 +17,12 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "keywords": ["cli", "react", "monorepo", "node", "express"],
+  "keywords": [
+    "cli",
+    "react",
+    "monorepo",
+    "node",
+    "express"
+  ],
   "license": "MIT"
 }
