@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'SF-Pro';
+  src: url('../assets/fonts/SF-Pro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+// global.scss
+
+// Цветовая палитра
+$background: #121212;
+$text: #ffffff;
+$accent: #f0e5c8;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  font-family: 'SF-Pro', sans-serif;
+  font-size: 62.5%;
+  font-weight: 500;
+  
+  height: 100vh;
+  background-color: $background;
+  color: $text;
+}
+
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+button {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+}
