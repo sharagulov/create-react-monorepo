@@ -7,7 +7,6 @@
 A professional **React + Express monorepo generator** for frontend-developers that helps to start projects in seconds.  
 Perfect for users who need **a fast, structured, and scalable** setup.
 
----
 
 ## 🚀 Features
 
@@ -17,7 +16,6 @@ Perfect for users who need **a fast, structured, and scalable** setup.
 ✅ **Customizable ports and database settings**  
 ✅ **Zero manual setup** – just run a single command!  
 
----
 
 ## 📦 Installation
 
@@ -32,9 +30,7 @@ Or use it instantly with `npx`:
 ```sh
 npx @sharagulov/create-react-monorepo my-project
 ```
-
----
-
+ 
 ## 🛠️ Usage
 
 Once installed, CRM generates a new monorepo.
@@ -45,7 +41,6 @@ The script will ask for:
 - Proxy and PostgreSQL **ports**
 - Automatically scaffolds a **monorepo structure**.
 
----
 
 ## 📂 Project Structure
 
@@ -66,7 +61,6 @@ my-project
 └── README.md
 ```
 
----
 
 ## 🔧 Commands
 
@@ -91,8 +85,6 @@ cd server
 npm run dev
 ```
 
----
-
 ## 📜 Environment Variables (`.env`)
 
 If you enabled the backend, a `.env` file will be generated:
@@ -104,13 +96,11 @@ SERVER_PORT=3001
 
 You can manually edit these values later.
 
----
 
 ## 📄 License
 
 This project is licensed under the **MIT License** – you're free to use, modify, and distribute it.
 
----
 
 ## 📞 Contact
 
