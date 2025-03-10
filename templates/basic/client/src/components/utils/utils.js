@@ -1,6 +1,6 @@
 /*
-* Объемные утилиты (функции),
-* которые часто выполняются
-* в ходе работы кода,
-* следует писать здесь.
+* Large utils (functions),
+* which are frequently performed
+* during the operation of the code,
+* should be written here.
 */
