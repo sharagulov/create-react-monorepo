@@ -5,11 +5,11 @@ const { generateTokens, validateRefreshToken, tokens } = require('../utils/token
 
 const prisma = new PrismaClient();
 
-// Функции-обработчики, которые будут вызываться при API-запросах
+// Handler functions that will be called for API requests
 
 const exampleHandler = async (req, res) => {
 
-  // логика обработки запроса
+  // Request processing logic
 
 };
 

@@ -1,4 +1,4 @@
-// ORM для PostgreSQL
+// ORM for PostgreSQL
 
 datasource db {
   provider = "postgresql"

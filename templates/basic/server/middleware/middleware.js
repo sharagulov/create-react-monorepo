@@ -1,9 +1,6 @@
-/*
-* Мидлвейр для валидации токенов
-* в пределах сервера, бесполезная
-* вещь в большинстве случаев
-*/
-
+/* Middleware for token validation
+ * within the server, useless
+ * thing in most cases
 /*
 
 const { validateAccessToken } = require('../utils/tokenUtils');

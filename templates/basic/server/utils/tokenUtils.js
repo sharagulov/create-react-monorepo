@@ -1,10 +1,10 @@
-// Чекеры для токенов
+// Token checkers
 
 const jwt = require('jsonwebtoken');
 
 const SECRET_KEY = process.env.JWT_SECRET || 'your_secret_key';
 const REFRESH_SECRET = process.env.REFRESH_SECRET || 'your_refresh_secret';
-const tokens = {}; // В будущем следует заменить на БД
+const tokens = {}; // In the future, it should be replaced using a database
 
 const generateTokens = (userId) => {
   const accessToken = jwt.sign({ userId }, SECRET_KEY, { expiresIn: '15m' });

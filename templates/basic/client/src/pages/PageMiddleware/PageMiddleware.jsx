@@ -8,7 +8,7 @@ export const RedirectIfNotAuthenticated = ({ children }) => {
         const token = localStorage.getItem('accessToken');
 
         if (!token) {
-            navigate('/login'); // Вписать здесь, куда перенаправить, если НЕ авторизован
+            navigate('/login'); // Enter here where to redirect if NOT logged in
         }
     }, [navigate]);
 
@@ -22,7 +22,7 @@ export const RedirectIfAuthenticated = ({ children }) => {
         const token = localStorage.getItem('accessToken');
 
         if (token) {
-            navigate('/'); // Вписать здесь, куда перенаправить, если авторизован
+            navigate('/'); // Enter here where to redirect if logged in
         }
     }, [navigate]);
 

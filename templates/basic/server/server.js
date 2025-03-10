@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 app.use('/api', routes);
 
-// Тут нужно инициализировать WebSocket и другие middleware, если необходимо
+// Here you need to initialize WebSocket or other middleware, if necessary
 
 const PORT = process.env.PORT;
 

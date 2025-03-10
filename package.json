@@ -1,6 +1,6 @@
 {
   "name": "@sharagulov/create-react-monorepo",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "type": "commonjs",
   "description": "Reactor-CLI to easify frontend developing",
   "publishConfig": {

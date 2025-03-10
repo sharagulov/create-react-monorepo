@@ -1,14 +1,14 @@
-// Маршруты и обработчики для API-запросов
+// Routes and handlers for API requests
 
 const express = require('express');
 const { exampleHandler } = require('../controllers/controllers');
 
 const router = express.Router();
 
-// |------- Маршруты и их функции -------| //
+// |--- Routes and their functions ---| //
 
 router.get('/example', exampleHandler);
 
-// |-------------------------------------| //
+// |----------------------------------| //
 
 module.exports = router;
